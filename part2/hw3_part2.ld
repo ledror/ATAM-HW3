@@ -28,3 +28,6 @@ SECTIONS
     *(.rodata)
   } :rodata
 }
+
+ENTRY(_hw3_unicorn)
+
