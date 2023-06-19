@@ -20,7 +20,7 @@ SECTIONS
   {
 	*(.data)
 	*(.bss)
-  } :data 
+  } :data
 
   . = 0x80000000;
   .rodata :
@@ -30,4 +30,7 @@ SECTIONS
 }
 
 ENTRY(_hw3_unicorn)
+
+EXTERN(purple)
+EXTERN(white)
 
